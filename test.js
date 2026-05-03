@@ -6,3 +6,5 @@ function greet(name) {
 
 greet("World")
 greet("GitHub")
+greet("World")
+greet("tseting?")
