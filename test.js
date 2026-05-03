@@ -1,5 +1,8 @@
 function greet(name) {
-    console.log("Hello " + name)
+    var greeting = "Hello " + name
+    console.log(greeting)
+    return greeting
 }
 
 greet("World")
+greet("GitHub")
