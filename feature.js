@@ -1,5 +1,5 @@
 // feature.js
-function getSum(arr) {
+function noOfElements(arr) {
   let sum = 0
   for (let i = 0; i < arr.length; i++) {
     sum += arr[0]
