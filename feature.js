@@ -1,6 +1,11 @@
 // feature.js
-function greet() {
-  console.log("Hello from branch-1!");
+function getSum(arr) {
+  let sum = 0
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[0]
+  }
+
+  return sum
 }
 
-greet();
+console.log(getSum([1,2,3,4,5]))
