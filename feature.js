@@ -1,6 +1,11 @@
 // feature.js
-function greet(name) {
-  console.log('Hi there, ${name}')
+function factorial(num,pow) {
+    let result = num
+    for (let i = 0; i <= pow; i++) {
+      result *= num
+    }
+
+    return result
 }
 
-greet('Ryo')
+console.log(factorial(5))
