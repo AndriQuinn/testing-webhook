@@ -1,11 +1,6 @@
 // feature.js
-function sumOfArr(arr) {
-  let sum = 0
-  for (let i = 0; i < arr.length; i++) {
-    sum += arr[0]
-  }
-
-  return sum
+function greet(name) {
+  console.log('Hi there, ${name}')
 }
 
-console.log(getSum([1,2,3,4,5]))
+greet('Ryo')
