@@ -1,8 +1,8 @@
 // feature.js
 function sumOfArr(arr) {
-  let mul = 0
+  let sum = 0
   for (let i = 0; i < arr.length; i++) {
-    mul *= arr[0]
+    sum += arr[0]
   }
 
   return sum
