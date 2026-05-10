@@ -1,10 +1,10 @@
 // feature.js
-function exponentiate(num, pow) {
+function factorial(num) {
     let result = 1;
-    for (let i = 0; i < pow; i++) {
-        result *= num;
+    for (let i = 1; i <= num; i++) {
+        result *= i;
     }
     return result;
 }
 
-console.log(exponentiate(5, 2)); // Returns 25
+console.log(factorial(5)); // Returns 125?
