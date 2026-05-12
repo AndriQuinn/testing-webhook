@@ -5,3 +5,9 @@ function exponentiate(num, exp) {
     }
     return result;
 }
+
+function greet(name) {
+    return `Hello ${name}`
+}
+
+console.log(greet('Andri'))
