@@ -8,3 +8,4 @@ function exponentiaate(num,exp) {
 }
 
 console.log(exponentiaate(2,5))
+console.log(exponentiaate(5,5))
