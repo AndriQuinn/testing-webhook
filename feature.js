@@ -1,4 +1,6 @@
-console.log("testing ratelimit in webhook")
-console.log("another testing ratelimit in webhook currently in 4/5")
-console.log("another testing ratelimit in webhook currently in 5/5")
-console.log("this should stopped the req because of ratelimit")
+// Rate Limiter Testing
+// Just modified the webhook to make the rate limiter comes first before anything else
+
+// Counter 1?
+
+// If you review this kindly ignore this :)
