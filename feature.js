@@ -1,8 +1,10 @@
-// Rate Limiter Testing
-// Just modified the webhook to make the rate limiter comes first before anything else
+function exponentiaate(num,exp) {
+    let result = num
+    for (let i = i; i <= Math.floor(exp); i++) {
+        result *= num
+    }
 
-// Counter 6?
+    return result
+}
 
-// If you review this kindly ignore this :)
-// This commit is solely for testing the rate limiter in backend.
-console.log("Counter 6")
+console.log(exponentiaate(2,5))
